@@ -28,3 +28,13 @@ print("""hello friends
 welcome to 
 
 my channel""")
+
+print("BeAu".lower())
+print("BeAu".upper())
+print("BeAu person".title())
+print("BeAu person".islower())
+
+print(name.upper())
+print(name) #string does not change
+print(len(name)) #length of string
+print("bu" in name) #check if 'bu' is contained in name
