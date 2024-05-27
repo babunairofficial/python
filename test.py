@@ -16,3 +16,15 @@ print(isinstance(marks, float))
 
 print(isinstance(number, int))
 print(isinstance(jersey_no, int))
+
+def is_adult(age):
+  return True if age>18 else False
+
+name += " is a boy"
+print(name)
+
+print("""hello friends
+
+welcome to 
+
+my channel""")
