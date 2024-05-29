@@ -49,3 +49,11 @@ print(name2)
 print(name3)
 print(name4)
 print(name5)
+
+#strings and slicing
+print(name[1])
+print(name[-1])
+
+print(name[1:3]) #slicing
+print(name[:7])
+print(name[2:])
