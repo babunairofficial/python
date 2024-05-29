@@ -57,3 +57,20 @@ print(name[-1])
 print(name[1:3]) #slicing
 print(name[:7])
 print(name[2:])
+
+#booleans
+done = True 
+not_done = False
+
+print(type(done) == bool)
+
+if done: #yes should print
+  print("yes")
+else:
+  print("no")
+
+if not_done: # no should print
+  print("yes")
+else:
+  print ("no")
+#strings are false only when empty, otherwise its true
