@@ -38,3 +38,14 @@ print(name.upper())
 print(name) #string does not change
 print(len(name)) #length of string
 print("bu" in name) #check if 'bu' is contained in name
+
+#escaping characters
+name2 = "Ba\"bu"
+name3 = 'Ba"bu'
+name4 = "Ba\nbu"
+name5 = "Ba\\bu"
+
+print(name2)
+print(name3)
+print(name4)
+print(name5)
