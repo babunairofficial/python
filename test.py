@@ -84,3 +84,8 @@ ingredients_purchased = True
 meal_cooked = False
 ready_to_serve = all([ingredients_purchased, meal_cooked])
 print(ready_to_serve) #all of it has to be true, only then true would be returned
+
+#number data types
+num1 = 2+3j
+num2 = complex(2,3) #complex object
+print(num1.real, num2.imag)
