@@ -89,3 +89,8 @@ print(ready_to_serve) #all of it has to be true, only then true would be returne
 num1 = 2+3j
 num2 = complex(2,3) #complex object
 print(num1.real, num2.imag)
+
+#built in functions
+print(abs(-5.5))
+print(round(5.49))
+print(round(5.49, 2)) #rounding to 2nd decimal place
