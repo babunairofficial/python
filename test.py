@@ -111,3 +111,7 @@ print(State['ACTIVE'])
 print(list(State)) #list the values of the State
 
 print(len(State))
+
+#user input
+age = input("What is your age? ")
+print("Your age is " + age)
