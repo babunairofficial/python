@@ -115,3 +115,14 @@ print(len(State))
 #user input
 age = input("What is your age? ")
 print("Your age is " + age)
+
+#control statements
+condition = True
+if condition == True:
+  print("The condition")
+  print("was true")
+else:
+  print("The condition")
+  print("was false")
+
+print("outside if")
