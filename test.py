@@ -167,3 +167,13 @@ print(dogs)
 print(len(dogs))
 dogs[1:1] = ["Test1", "Test2"] #add multiple items at index 1
 print(dogs)
+
+#sorting lists
+items = ["Roger", "Syd", "Quincy", "Beau", "bob"]  #all strings
+print("the list before sorting")
+print(items)
+items.sort()
+print("the list after sorting")
+print(items) #sorting upper case first then lower case
+items.sort(key=str.lower) #sorts irrespective of upper case or lower case
+print(items)
