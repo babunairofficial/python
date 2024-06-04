@@ -170,6 +170,7 @@ print(dogs)
 
 #sorting lists
 items = ["Roger", "Syd", "Quincy", "Beau", "bob"]  #all strings
+itemscopy = items[:] #creating a copy of the list 'items'
 print("the list before sorting")
 print(items)
 items.sort()
@@ -177,3 +178,6 @@ print("the list after sorting")
 print(items) #sorting upper case first then lower case
 items.sort(key=str.lower) #sorts irrespective of upper case or lower case
 print(items)
+#sorting modifies the contents of list
+print("the original list was as follows:")
+print(itemscopy)
