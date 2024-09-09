@@ -49,3 +49,10 @@ print("the list after sorting")
 print(items) #sorting upper case first then lower case
 items.sort(key=str.lower) #sorts irrespective of upper case or lower case
 print(items)
+#sorting modifies the contents of list
+print("the original list was as follows:")
+print(itemscopy)
+
+new_items = ["mango", "apple", "orange", "banana", "tomato", "coconut", "strawberry", "mulberry"]
+print(sorted(new_items, key=str.lower)) #global function called sorted is used here => to sort without modifying the original list
+print(new_items) 
