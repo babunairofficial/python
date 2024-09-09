@@ -38,3 +38,8 @@ print(name.upper())
 print(name) #string does not change
 print(len(name)) #length of string
 print("bu" in name) #check if 'bu' is contained in name
+
+#number data types
+num1 = 2+3j
+num2 = complex(2,3) #complex object
+print(num1.real, num2.imag)
