@@ -24,3 +24,13 @@ def hello(name):
     return name, "Beau", 8
 
 print(hello("Syd"))
+
+#variable scope
+age = 10 # global variable
+def test():
+    age2 = 15 #
+    print(age) #local variable
+    print(age2)
+
+print(age)
+test()
