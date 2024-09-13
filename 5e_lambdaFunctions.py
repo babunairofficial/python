@@ -42,3 +42,24 @@ result2 = filter(isEven, numbers2)
 
 result2 = filter(lambda n: n % 2 == 0, numbers2)
 print(list(result2))
+
+#reduce()
+
+from functools import reduce
+
+expenses = [
+    ('Dinner', 80),
+    ('Car repair', 120),
+    ('movies', 150)
+]
+
+"""
+sum = 0
+for expense in expenses:
+    sum += expense[1]
+"""
+
+sum = reduce(lambda x, y: x + y[1], expenses,0)
+# x acts as the accumulator, 0 is the initial value of the accumulator
+
+print(sum)
