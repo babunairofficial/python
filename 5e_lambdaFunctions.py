@@ -29,3 +29,16 @@ result = map(double, numbers)
 #result = map(lambda a: a * 2, numbers)
 
 print(list(result))
+
+#filter()
+numbers2 = [4, 5, 6]
+
+"""
+def isEven(n):
+    return n % 2 == 0
+
+result2 = filter(isEven, numbers2)
+"""
+
+result2 = filter(lambda n: n % 2 == 0, numbers2)
+print(list(result2))
