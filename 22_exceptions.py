@@ -27,3 +27,11 @@ try:
     raise DogNotFoundException()
 except DogNotFoundException:
     print('Dog not found!')
+
+
+#With
+
+filename = "C:\myProgramming\python\README.md"
+with open(filename, 'r') as file:
+    content = file.read()
+    print(content)
