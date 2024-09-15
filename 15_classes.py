@@ -47,3 +47,22 @@ print(billa.age)
 
 billa.meow()
 billa.walk()
+
+
+# Operator Overloading
+#make classes comparable
+
+class Dog:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+
+    def __gt__(self, other):
+        return True if self.age > other.age else False
+    
+handsome = Dog('Handsome', 5)
+dora = Dog('Dora', 2)
+
+print(handsome > dora)
+ 
+#there are several other special functions or methods for operator overloading
