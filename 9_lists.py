@@ -56,3 +56,13 @@ print(itemscopy)
 new_items = ["mango", "apple", "orange", "banana", "tomato", "coconut", "strawberry", "mulberry"]
 print(sorted(new_items, key=str.lower)) #global function called sorted is used here => to sort without modifying the original list
 print(new_items) 
+
+
+# List Compressions
+#simpler alternative to loops
+
+numbers =  [1, 2, 3, 4, 5]
+
+numbers_power_2 = [n**2 for n in numbers]
+
+print(numbers_power_2)
