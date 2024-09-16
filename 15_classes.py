@@ -69,6 +69,10 @@ print(handsome > dora)
 
 #Creating instances in class
 class Item:
+    
+    #class attribute
+    pay_rate = 0.8 
+
     def calculate_total_price(self, x, y): #method
         return x * y
     
@@ -91,3 +95,7 @@ item2.name = "Laptop"
 item2.price = 50000
 item2.quantity = 2
 print(item2.calculate_total_price(item2.price, item2.quantity))
+
+print(Item.pay_rate)
+print(item1.pay_rate)
+print(item2.pay_rate)
