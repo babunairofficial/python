@@ -16,7 +16,7 @@ class Item:
         # Assign to self object
         self.name = name
         self.price = price
-        self.quantity = quantity\
+        self.quantity = quantity
         
         # Actions to execute
         Item.all.append(self)
@@ -48,3 +48,7 @@ item3 = Item("Cable", 18, 5)
 item4 = Item("Mouse", 58, 5)
 item5 = Item("Keyboard", 75, 5)
 
+print(Item.all)
+
+for instance in Item.all:
+    print(instance.name)
