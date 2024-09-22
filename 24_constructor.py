@@ -42,6 +42,9 @@ class Item:
 # item2.apply_discount() #uses instance attribute
 # print(item2.price)
 
+def __repr__(self):
+    return f"Item('{self.name}', {self.price}, {self.quantity})"
+
 item1 = Item("Phone", 100, 1)
 item2 = Item("Laptop", 1000, 3)
 item3 = Item("Cable", 18, 5)
